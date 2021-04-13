@@ -54,10 +54,11 @@
     @yield('content')
     <livewire:scripts />
     @yield('scripts')
+    
     <footer class="border border-t border-gray-800">
         <div class="container mx-auto text-sm px-4 py-6 text-center">
             &copy; 2021 <a href="{{ route('movies.index') }}" class="underline hover:text-gray-300">movies.soumendemos.live</a> |
-            Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDB API</a>
+            Powered by <a href="https://www.themoviedb.org/documentation/api" class="underline hover:text-gray-300">TMDB API </a>
         </div>
     </footer>
 </body>
